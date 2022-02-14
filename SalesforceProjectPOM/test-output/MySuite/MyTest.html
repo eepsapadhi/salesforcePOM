@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  MyTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MyTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 10 09:06:39 PST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>776 seconds (776511 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.salesforce.test.CreateaccountTest.TC13()'><b>TC13</b><br>Test class: com.salesforce.test.CreateaccountTest</td>
+<td></td>
+<td>22</td>
+<td>com.salesforce.test.CreateaccountTest@636be97c</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC32()'><b>TC32</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>11</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.LeadsTest.TC22()'><b>TC22</b><br>Test class: com.salesforce.test.LeadsTest</td>
+<td></td>
+<td>18</td>
+<td>com.salesforce.test.LeadsTest@1817d444</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC09()'><b>TC09</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>7</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateaccountTest.TC10()'><b>TC10</b><br>Test class: com.salesforce.test.CreateaccountTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.CreateaccountTest@636be97c</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateaccountTest.TC14()'><b>TC14</b><br>Test class: com.salesforce.test.CreateaccountTest</td>
+<td></td>
+<td>12</td>
+<td>com.salesforce.test.CreateaccountTest@636be97c</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC28()'><b>TC28</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC05()'><b>TC05</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>8</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC07calendar()'><b>TC07calendar</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>18</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.RandomscenarioTest.TC37()'><b>TC37</b><br>Test class: com.salesforce.test.RandomscenarioTest</td>
+<td></td>
+<td>18</td>
+<td>com.salesforce.test.RandomscenarioTest@50b472aa</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC27()'><b>TC27</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC25()'><b>TC25</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>11</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.RandomscenarioTest.TC36()'><b>TC36</b><br>Test class: com.salesforce.test.RandomscenarioTest</td>
+<td></td>
+<td>16</td>
+<td>com.salesforce.test.RandomscenarioTest@50b472aa</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.profilePicture()'><b>profilePicture</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>74</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateaccountTest.TC12()'><b>TC12</b><br>Test class: com.salesforce.test.CreateaccountTest</td>
+<td></td>
+<td>18</td>
+<td>com.salesforce.test.CreateaccountTest@636be97c</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC07()'><b>TC07</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>26</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateOptyTest.TC16()'><b>TC16</b><br>Test class: com.salesforce.test.CreateOptyTest</td>
+<td></td>
+<td>15</td>
+<td>com.salesforce.test.CreateOptyTest@50a638b5</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateOptyTest.TC15()'><b>TC15</b><br>Test class: com.salesforce.test.CreateOptyTest</td>
+<td></td>
+<td>7</td>
+<td>com.salesforce.test.CreateOptyTest@50a638b5</td></tr>
+<tr>
+<td title='com.salesforce.test.LeadsTest.TC21()'><b>TC21</b><br>Test class: com.salesforce.test.LeadsTest</td>
+<td></td>
+<td>8</td>
+<td>com.salesforce.test.LeadsTest@1817d444</td></tr>
+<tr>
+<td title='com.salesforce.test.LeadsTest.TC23()'><b>TC23</b><br>Test class: com.salesforce.test.LeadsTest</td>
+<td></td>
+<td>10</td>
+<td>com.salesforce.test.LeadsTest@1817d444</td></tr>
+<tr>
+<td title='com.salesforce.test.RandomscenarioTest.TC35()'><b>TC35</b><br>Test class: com.salesforce.test.RandomscenarioTest</td>
+<td></td>
+<td>13</td>
+<td>com.salesforce.test.RandomscenarioTest@50b472aa</td></tr>
+<tr>
+<td title='com.salesforce.test.RandomscenarioTest.TC34()'><b>TC34</b><br>Test class: com.salesforce.test.RandomscenarioTest</td>
+<td></td>
+<td>13</td>
+<td>com.salesforce.test.RandomscenarioTest@50b472aa</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateOptyTest.TC18()'><b>TC18</b><br>Test class: com.salesforce.test.CreateOptyTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.CreateOptyTest@50a638b5</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC30()'><b>TC30</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>13</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.RandomscenarioTest.TC33()'><b>TC33</b><br>Test class: com.salesforce.test.RandomscenarioTest</td>
+<td></td>
+<td>7</td>
+<td>com.salesforce.test.RandomscenarioTest@50b472aa</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC06()'><b>TC06</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>41</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC08()'><b>TC08</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>10</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.LeadsTest.TC20()'><b>TC20</b><br>Test class: com.salesforce.test.LeadsTest</td>
+<td></td>
+<td>10</td>
+<td>com.salesforce.test.LeadsTest@1817d444</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC29()'><b>TC29</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.LeadsTest.TC24()'><b>TC24</b><br>Test class: com.salesforce.test.LeadsTest</td>
+<td></td>
+<td>12</td>
+<td>com.salesforce.test.LeadsTest@1817d444</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC31()'><b>TC31</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>11</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateOptyTest.TC17()'><b>TC17</b><br>Test class: com.salesforce.test.CreateOptyTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.CreateOptyTest@50a638b5</td></tr>
+<tr>
+<td title='com.salesforce.test.UsermenuDropdownTest.TC07email()'><b>TC07email</b><br>Test class: com.salesforce.test.UsermenuDropdownTest</td>
+<td></td>
+<td>31</td>
+<td>com.salesforce.test.UsermenuDropdownTest@30ee2816</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateOptyTest.TC19()'><b>TC19</b><br>Test class: com.salesforce.test.CreateOptyTest</td>
+<td></td>
+<td>13</td>
+<td>com.salesforce.test.CreateOptyTest@50a638b5</td></tr>
+<tr>
+<td title='com.salesforce.test.ContactTest.TC26()'><b>TC26</b><br>Test class: com.salesforce.test.ContactTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.ContactTest@6ca8564a</td></tr>
+<tr>
+<td title='com.salesforce.test.CreateaccountTest.TC11()'><b>TC11</b><br>Test class: com.salesforce.test.CreateaccountTest</td>
+<td></td>
+<td>9</td>
+<td>com.salesforce.test.CreateaccountTest@636be97c</td></tr>
+</table><p>
+</body>
+</html>
