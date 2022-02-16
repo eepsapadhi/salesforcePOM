@@ -1,1147 +1,495 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="10" total="46" passed="36" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-10T09:06:39 PST" name="MySuite" finished-at="2022-02-10T09:19:36 PST" duration-ms="776511">
+  <suite started-at="2022-02-15T21:16:26 PST" name="Default suite" finished-at="2022-02-15T21:16:27 PST" duration-ms="848">
     <groups>
     </groups>
-    <test started-at="2022-02-10T09:06:39 PST" name="MyTest" finished-at="2022-02-10T09:19:36 PST" duration-ms="776511">
-      <class name="com.salesforce.test.LeadsTest">
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:19 PST" name="initialSetUp" finished-at="2022-02-10T09:14:24 PST" duration-ms="4589" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.LeadsTest.TC20() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC20()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:24 PST" name="TC20" finished-at="2022-02-10T09:14:34 PST" duration-ms="10030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC20 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:34 PST" name="tearDown" finished-at="2022-02-10T09:14:35 PST" duration-ms="1253" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC20 status=SUCCESS method=LeadsTest.TC20()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:35 PST" name="initialSetUp" finished-at="2022-02-10T09:14:39 PST" duration-ms="4007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.LeadsTest.TC21() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC21()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:39 PST" name="TC21" finished-at="2022-02-10T09:14:47 PST" duration-ms="8586" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC21 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:47 PST" name="tearDown" finished-at="2022-02-10T09:14:49 PST" duration-ms="1233" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC21 status=SUCCESS method=LeadsTest.TC21()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:49 PST" name="initialSetUp" finished-at="2022-02-10T09:14:53 PST" duration-ms="4185" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.LeadsTest.TC22() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC22()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:14:53 PST" name="TC22" finished-at="2022-02-10T09:15:11 PST" duration-ms="18579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC22 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:11 PST" name="tearDown" finished-at="2022-02-10T09:15:13 PST" duration-ms="1262" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC22 status=SUCCESS method=LeadsTest.TC22()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:13 PST" name="initialSetUp" finished-at="2022-02-10T09:15:17 PST" duration-ms="4237" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.LeadsTest.TC23() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC23()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:17 PST" name="TC23" finished-at="2022-02-10T09:15:27 PST" duration-ms="10179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC23 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:27 PST" name="tearDown" finished-at="2022-02-10T09:15:28 PST" duration-ms="1257" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC23 status=SUCCESS method=LeadsTest.TC23()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:28 PST" name="initialSetUp" finished-at="2022-02-10T09:15:33 PST" duration-ms="4184" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.LeadsTest.TC24() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC24()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:33 PST" name="TC24" finished-at="2022-02-10T09:15:45 PST" duration-ms="12256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC24 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.LeadsTest@1817d444]" started-at="2022-02-10T09:15:45 PST" name="tearDown" finished-at="2022-02-10T09:15:46 PST" duration-ms="1113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC24 status=SUCCESS method=LeadsTest.TC24()[pri:0, instance:com.salesforce.test.LeadsTest@1817d444] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.salesforce.test.LeadsTest -->
-      <class name="com.salesforce.test.CreateaccountTest">
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:15 PST" name="initialSetUp" finished-at="2022-02-10T09:11:19 PST" duration-ms="4140" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateaccountTest.TC10() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC10()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:19 PST" name="TC10" finished-at="2022-02-10T09:11:29 PST" duration-ms="9958" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC10 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:29 PST" name="tearDown" finished-at="2022-02-10T09:11:30 PST" duration-ms="1312" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC10 status=SUCCESS method=CreateaccountTest.TC10()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:30 PST" name="initialSetUp" finished-at="2022-02-10T09:11:35 PST" duration-ms="4628" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateaccountTest.TC11() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC11()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:35 PST" name="TC11" finished-at="2022-02-10T09:11:44 PST" duration-ms="9871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC11 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:44 PST" name="tearDown" finished-at="2022-02-10T09:11:46 PST" duration-ms="1213" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC11 status=SUCCESS method=CreateaccountTest.TC11()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:46 PST" name="initialSetUp" finished-at="2022-02-10T09:11:50 PST" duration-ms="4403" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateaccountTest.TC12() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC12()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:11:50 PST" name="TC12" finished-at="2022-02-10T09:12:09 PST" duration-ms="18749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC12 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:09 PST" name="tearDown" finished-at="2022-02-10T09:12:10 PST" duration-ms="1273" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC12 status=SUCCESS method=CreateaccountTest.TC12()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:10 PST" name="initialSetUp" finished-at="2022-02-10T09:12:14 PST" duration-ms="4100" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateaccountTest.TC13() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC13()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:14 PST" name="TC13" finished-at="2022-02-10T09:12:37 PST" duration-ms="22712" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC13 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:37 PST" name="tearDown" finished-at="2022-02-10T09:12:38 PST" duration-ms="1328" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC13 status=SUCCESS method=CreateaccountTest.TC13()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:38 PST" name="initialSetUp" finished-at="2022-02-10T09:12:42 PST" duration-ms="4227" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateaccountTest.TC14() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC14()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:42 PST" name="TC14" finished-at="2022-02-10T09:12:55 PST" duration-ms="12390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC14 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c]" started-at="2022-02-10T09:12:55 PST" name="tearDown" finished-at="2022-02-10T09:12:56 PST" duration-ms="1249" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC14 status=SUCCESS method=CreateaccountTest.TC14()[pri:0, instance:com.salesforce.test.CreateaccountTest@636be97c] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.salesforce.test.CreateaccountTest -->
-      <class name="com.salesforce.test.RandomscenarioTest">
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:17:59 PST" name="initialSetUp" finished-at="2022-02-10T09:18:03 PST" duration-ms="4201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.RandomscenarioTest.TC33() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC33()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:03 PST" name="TC33" finished-at="2022-02-10T09:18:10 PST" duration-ms="7209" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC33 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:10 PST" name="tearDown" finished-at="2022-02-10T09:18:12 PST" duration-ms="1269" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC33 status=SUCCESS method=RandomscenarioTest.TC33()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:12 PST" name="initialSetUp" finished-at="2022-02-10T09:18:16 PST" duration-ms="4183" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.RandomscenarioTest.TC34() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC34()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:16 PST" name="TC34" finished-at="2022-02-10T09:18:29 PST" duration-ms="13203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC34 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:29 PST" name="tearDown" finished-at="2022-02-10T09:18:30 PST" duration-ms="1226" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC34 status=SUCCESS method=RandomscenarioTest.TC34()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:30 PST" name="initialSetUp" finished-at="2022-02-10T09:18:35 PST" duration-ms="4243" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.RandomscenarioTest.TC35() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC35()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:35 PST" name="TC35" finished-at="2022-02-10T09:18:48 PST" duration-ms="13394" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC35 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:48 PST" name="tearDown" finished-at="2022-02-10T09:18:49 PST" duration-ms="1317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC35 status=SUCCESS method=RandomscenarioTest.TC35()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:49 PST" name="initialSetUp" finished-at="2022-02-10T09:18:53 PST" duration-ms="4175" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.RandomscenarioTest.TC36() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC36()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:18:53 PST" name="TC36" finished-at="2022-02-10T09:19:10 PST" duration-ms="16729" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC36 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:19:10 PST" name="tearDown" finished-at="2022-02-10T09:19:11 PST" duration-ms="1281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC36 status=SUCCESS method=RandomscenarioTest.TC36()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:19:11 PST" name="initialSetUp" finished-at="2022-02-10T09:19:16 PST" duration-ms="4249" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.RandomscenarioTest.TC37() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC37()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:19:16 PST" name="TC37" finished-at="2022-02-10T09:19:34 PST" duration-ms="18549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC37 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa]" started-at="2022-02-10T09:19:34 PST" name="tearDown" finished-at="2022-02-10T09:19:36 PST" duration-ms="1335" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC37 status=SUCCESS method=RandomscenarioTest.TC37()[pri:0, instance:com.salesforce.test.RandomscenarioTest@50b472aa] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.salesforce.test.RandomscenarioTest -->
-      <class name="com.salesforce.test.CreateOptyTest">
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:12:56 PST" name="initialSetUp" finished-at="2022-02-10T09:13:00 PST" duration-ms="4340" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateOptyTest.TC15() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC15()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:00 PST" name="TC15" finished-at="2022-02-10T09:13:08 PST" duration-ms="7744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC15 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:08 PST" name="tearDown" finished-at="2022-02-10T09:13:09 PST" duration-ms="1280" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC15 status=SUCCESS method=CreateOptyTest.TC15()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:09 PST" name="initialSetUp" finished-at="2022-02-10T09:13:14 PST" duration-ms="4443" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateOptyTest.TC16() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC16()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:14 PST" name="TC16" finished-at="2022-02-10T09:13:30 PST" duration-ms="15654" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC16 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:30 PST" name="tearDown" finished-at="2022-02-10T09:13:31 PST" duration-ms="1286" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC16 status=SUCCESS method=CreateOptyTest.TC16()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:31 PST" name="initialSetUp" finished-at="2022-02-10T09:13:35 PST" duration-ms="4041" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateOptyTest.TC17() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC17()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:35 PST" name="TC17" finished-at="2022-02-10T09:13:44 PST" duration-ms="9190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC17 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:44 PST" name="tearDown" finished-at="2022-02-10T09:13:45 PST" duration-ms="1247" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC17 status=SUCCESS method=CreateOptyTest.TC17()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:45 PST" name="initialSetUp" finished-at="2022-02-10T09:13:49 PST" duration-ms="3922" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateOptyTest.TC18() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC18()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:49 PST" name="TC18" finished-at="2022-02-10T09:13:59 PST" duration-ms="9413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC18 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:13:59 PST" name="tearDown" finished-at="2022-02-10T09:14:00 PST" duration-ms="1274" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC18 status=SUCCESS method=CreateOptyTest.TC18()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:14:00 PST" name="initialSetUp" finished-at="2022-02-10T09:14:04 PST" duration-ms="4249" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.CreateOptyTest.TC19() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC19()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:14:04 PST" name="TC19" finished-at="2022-02-10T09:14:18 PST" duration-ms="13483" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC19 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5]" started-at="2022-02-10T09:14:18 PST" name="tearDown" finished-at="2022-02-10T09:14:19 PST" duration-ms="1307" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC19 status=SUCCESS method=CreateOptyTest.TC19()[pri:0, instance:com.salesforce.test.CreateOptyTest@50a638b5] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.salesforce.test.CreateOptyTest -->
+    <test started-at="2022-02-15T21:16:26 PST" name="Default test" finished-at="2022-02-15T21:16:27 PST" duration-ms="848">
       <class name="com.salesforce.test.ContactTest">
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:15:46 PST" name="initialSetUp" finished-at="2022-02-10T09:15:51 PST" duration-ms="4602" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC25() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC25()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:15:51 PST" name="TC25" finished-at="2022-02-10T09:16:02 PST" duration-ms="11185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC25 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:02 PST" name="tearDown" finished-at="2022-02-10T09:16:03 PST" duration-ms="1283" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC25 status=SUCCESS method=ContactTest.TC25()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:03 PST" name="initialSetUp" finished-at="2022-02-10T09:16:07 PST" duration-ms="4270" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC26() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC26()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:07 PST" name="TC26" finished-at="2022-02-10T09:16:17 PST" duration-ms="9832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC26 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:17 PST" name="tearDown" finished-at="2022-02-10T09:16:18 PST" duration-ms="1342" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC26 status=SUCCESS method=ContactTest.TC26()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:18 PST" name="initialSetUp" finished-at="2022-02-10T09:16:23 PST" duration-ms="4339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC27() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC27()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:23 PST" name="TC27" finished-at="2022-02-10T09:16:33 PST" duration-ms="9754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC27 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:33 PST" name="tearDown" finished-at="2022-02-10T09:16:34 PST" duration-ms="1209" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC27 status=SUCCESS method=ContactTest.TC27()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:34 PST" name="initialSetUp" finished-at="2022-02-10T09:16:38 PST" duration-ms="3873" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC28() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC28()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:38 PST" name="TC28" finished-at="2022-02-10T09:16:48 PST" duration-ms="9968" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC28 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:48 PST" name="tearDown" finished-at="2022-02-10T09:16:49 PST" duration-ms="1263" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC28 status=SUCCESS method=ContactTest.TC28()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:49 PST" name="initialSetUp" finished-at="2022-02-10T09:16:53 PST" duration-ms="4217" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC29() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC29()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:16:53 PST" name="TC29" finished-at="2022-02-10T09:17:03 PST" duration-ms="9815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC29 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:03 PST" name="tearDown" finished-at="2022-02-10T09:17:04 PST" duration-ms="1266" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC29 status=SUCCESS method=ContactTest.TC29()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:04 PST" name="initialSetUp" finished-at="2022-02-10T09:17:08 PST" duration-ms="4000" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC30() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC30()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:08 PST" name="TC30" finished-at="2022-02-10T09:17:22 PST" duration-ms="13745" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC30 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:22 PST" name="tearDown" finished-at="2022-02-10T09:17:23 PST" duration-ms="1327" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC30 status=SUCCESS method=ContactTest.TC30()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:23 PST" name="initialSetUp" finished-at="2022-02-10T09:17:28 PST" duration-ms="4863" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC31() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC31()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:28 PST" name="TC31" finished-at="2022-02-10T09:17:40 PST" duration-ms="11770" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC31 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:40 PST" name="tearDown" finished-at="2022-02-10T09:17:41 PST" duration-ms="1304" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC31 status=SUCCESS method=ContactTest.TC31()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:41 PST" name="initialSetUp" finished-at="2022-02-10T09:17:46 PST" duration-ms="4683" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.ContactTest.TC32() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialSetUp -->
-        <test-method signature="TC32()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:46 PST" name="TC32" finished-at="2022-02-10T09:17:58 PST" duration-ms="11843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC32 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a]" started-at="2022-02-10T09:17:58 PST" name="tearDown" finished-at="2022-02-10T09:17:59 PST" duration-ms="1254" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC32 status=SUCCESS method=ContactTest.TC32()[pri:0, instance:com.salesforce.test.ContactTest@6ca8564a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.salesforce.test.ContactTest -->
-      <class name="com.salesforce.test.UsermenuDropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:06:39 PST" name="setUp" finished-at="2022-02-10T09:06:40 PST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="setUp" finished-at="2022-02-15T21:16:26 PST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:06:40 PST" name="initialSetUp" finished-at="2022-02-10T09:06:53 PST" duration-ms="12814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.salesforce.test.UsermenuDropdownTest.TC05() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586857" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC05()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:06:53 PST" name="TC05" finished-at="2022-02-10T09:07:02 PST" duration-ms="8928" status="PASS">
+        <test-method signature="TC25()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC25" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC05 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:02 PST" name="tearDown" finished-at="2022-02-10T09:07:03 PST" duration-ms="1279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC05 status=SUCCESS method=UsermenuDropdownTest.TC05()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC25 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586887" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:03 PST" name="initialSetUp" finished-at="2022-02-10T09:07:09 PST" duration-ms="5912" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void com.salesforce.test.UsermenuDropdownTest.TC06() throws java.lang.InterruptedException,java.awt.AWTException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586890" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC06()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:09 PST" name="TC06" finished-at="2022-02-10T09:07:51 PST" duration-ms="41752" status="PASS">
+        <test-method signature="TC26()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC26" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC06 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:51 PST" name="tearDown" finished-at="2022-02-10T09:07:52 PST" duration-ms="1320" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC06 status=SUCCESS method=UsermenuDropdownTest.TC06()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC26 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586898" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:52 PST" name="initialSetUp" finished-at="2022-02-10T09:07:57 PST" duration-ms="4586" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.TC07() throws java.lang.InterruptedException,java.awt.AWTException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586899" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC07()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:07:57 PST" name="TC07" finished-at="2022-02-10T09:08:23 PST" duration-ms="26216" status="PASS">
+        <test-method signature="TC27()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC27" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC07 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:23 PST" name="tearDown" finished-at="2022-02-10T09:08:24 PST" duration-ms="1339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC07 status=SUCCESS method=UsermenuDropdownTest.TC07()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC27 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586905" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:24 PST" name="initialSetUp" finished-at="2022-02-10T09:08:29 PST" duration-ms="5090" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.TC07calendar() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586907" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC07calendar()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:29 PST" name="TC07calendar" finished-at="2022-02-10T09:08:48 PST" duration-ms="18676" status="PASS">
+        <test-method signature="TC28()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC28" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC07calendar -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:48 PST" name="tearDown" finished-at="2022-02-10T09:08:49 PST" duration-ms="1266" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC07calendar status=SUCCESS method=UsermenuDropdownTest.TC07calendar()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC28 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586947" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:49 PST" name="initialSetUp" finished-at="2022-02-10T09:08:53 PST" duration-ms="4008" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.TC07email() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586952" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC07email()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:08:53 PST" name="TC07email" finished-at="2022-02-10T09:09:25 PST" duration-ms="31512" status="PASS">
+        <test-method signature="TC29()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC29" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC07email -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:25 PST" name="tearDown" finished-at="2022-02-10T09:09:26 PST" duration-ms="1271" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC07email status=SUCCESS method=UsermenuDropdownTest.TC07email()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC29 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586980" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:26 PST" name="initialSetUp" finished-at="2022-02-10T09:09:30 PST" duration-ms="4345" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.TC08() throws java.lang.InterruptedException,java.awt.AWTException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586982" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC08()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:30 PST" name="TC08" finished-at="2022-02-10T09:09:41 PST" duration-ms="10441" status="PASS">
+        <test-method signature="TC30()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="TC30" finished-at="2022-02-15T21:16:26 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC08 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:41 PST" name="tearDown" finished-at="2022-02-10T09:09:42 PST" duration-ms="1245" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC08 status=SUCCESS method=UsermenuDropdownTest.TC08()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC30 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586986" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:42 PST" name="initialSetUp" finished-at="2022-02-10T09:09:46 PST" duration-ms="4063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.TC09() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:26 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988586988" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="TC09()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:46 PST" name="TC09" finished-at="2022-02-10T09:09:54 PST" duration-ms="7572" status="PASS">
+        <test-method signature="TC31()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="TC31" finished-at="2022-02-15T21:16:27 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC09 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:54 PST" name="tearDown" finished-at="2022-02-10T09:09:55 PST" duration-ms="1267" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=TC09 status=SUCCESS method=UsermenuDropdownTest.TC09()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC31 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988587025" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:55 PST" name="initialSetUp" finished-at="2022-02-10T09:09:59 PST" duration-ms="4066" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public static void com.salesforce.test.UsermenuDropdownTest.profilePicture() throws java.lang.InterruptedException,java.awt.AWTException]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="initialSetUp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="initialSetUp" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988587027" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetUp -->
-        <test-method signature="profilePicture()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:09:59 PST" name="profilePicture" finished-at="2022-02-10T09:11:13 PST" duration-ms="74214" status="PASS">
+        <test-method signature="TC32()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="TC32" finished-at="2022-02-15T21:16:27 PST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeMethod on method initialSetUp but has not been marked @Optional or defined
+in /private/var/folders/nx/p61wp4593116j0t2p3th_tb40000gn/T/testng-eclipse--1492168745/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- profilePicture -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:11:13 PST" name="tearDown" finished-at="2022-02-10T09:11:15 PST" duration-ms="1365" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=profilePicture status=SUCCESS method=UsermenuDropdownTest.profilePicture()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- TC32 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="tearDown" finished-at="1969-12-31T16:00:00 PST" duration-ms="-1644988587032" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endUp()[pri:0, instance:com.salesforce.test.UsermenuDropdownTest@30ee2816]" started-at="2022-02-10T09:19:36 PST" name="endUp" finished-at="2022-02-10T09:19:36 PST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="endUp()[pri:0, instance:com.salesforce.test.ContactTest@6f96c77]" started-at="2022-02-15T21:16:27 PST" name="endUp" finished-at="2022-02-15T21:16:27 PST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endUp -->
-      </class> <!-- com.salesforce.test.UsermenuDropdownTest -->
-    </test> <!-- MyTest -->
-  </suite> <!-- MySuite -->
+      </class> <!-- com.salesforce.test.ContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

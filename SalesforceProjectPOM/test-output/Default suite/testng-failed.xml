@@ -3,15 +3,22 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.salesforce.test.LoginTest">
+      <class name="com.salesforce.test.ContactTest">
         <methods>
+          <include name="TC31"/>
+          <include name="TC32"/>
           <include name="initialSetUp"/>
           <include name="tearDown"/>
-          <include name="ForgotPassword2"/>
+          <include name="TC30"/>
+          <include name="TC28"/>
+          <include name="TC29"/>
           <include name="setUp"/>
+          <include name="TC25"/>
+          <include name="TC26"/>
+          <include name="TC27"/>
           <include name="endUp"/>
         </methods>
-      </class> <!-- com.salesforce.test.LoginTest -->
+      </class> <!-- com.salesforce.test.ContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
